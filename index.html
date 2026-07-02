@@ -196,6 +196,13 @@
 
 </a>
 
+<!-- 1. Supabase library (must load first) -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<!-- 2. Supabase credentials -->
+<script src="js/supabase-config.js"></script>
+<!-- 3. Supabase client initializer -->
+<script src="js/supabase-client.js"></script>
+<!-- 4. Your existing site logic (loads last, can now use supabaseClient if needed) -->
 <script src="script.js"></script>
 
 <!-- Supabase JS library (v2) -->
